@@ -2,26 +2,12 @@ var digit = prompt("Enter any digit");
 
 digit = digit.toLowerCase();
 
-switch(digit){
-    case "a" :
-        console.log("vowel");
-        break;
-
-    case "e" :
-        console.log("vowel");
-        break;
-
-    case "i" :
-        console.log("vowel");
-        break;
-
-
-    case "o" :
-        console.log("vowel");
-        break;
-
-
-    case "u" :
+switch (digit) {
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
         console.log("vowel");
         break;
 
