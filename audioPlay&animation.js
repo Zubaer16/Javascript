@@ -5,6 +5,7 @@ for (var i = 0; i < 3; i++){
 
         console.log(text);
         audioPlay(text);
+        playAnimation(text);
 
         
 });
@@ -28,4 +29,13 @@ function audioPlay(text){
             break;
     }
 
+}
+
+function playAnimation(text){
+    var selectedButton = document.querySelector("."+text);
+    selectedButton.classList.add("anim");
+
+    setTimeout(function(){
+        selectedButton.classList.remove("anim");
+    },1000);
 }
