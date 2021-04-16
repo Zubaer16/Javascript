@@ -1,4 +1,4 @@
-var photos = ["images1/1.jpg","images1/2.jpg","images1/3.jpg"];
+var photos = ["images/anisul1.jpg","images/anisul2.jpg","images/anisul3.jpg"];
 var imgTag = document.querySelector = ("img");
 
 var count = 0;
