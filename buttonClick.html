@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click</title>
+</head>
+<body>
+    
+    <button onclick="myPicture1()"> anisul 1</button>
+    <button onclick="myPicture2()"> anisul 2</button>
+    <p></p>
+    <!-- <p id="paraId">demo</p> -->
+    <img id="myImageId" src="#" alt="" height="300" width="300">
+    
+
+
+    <script>
+
+        var myVar1 = document.querySelector("#myImageId");
+
+        // function myMessage1 (){
+            
+           
+        //    myVar1.innerHTML = "You have clicked on button1";
+
+        // }
+        // function myMessage2 (){
+            
+        //     myVar1.innerHTML = "You have clicked on button2";
+        // }
+        // function myMessage3 (){
+        //     alert("Hello everyone 3");
+        // }
+
+
+        function myPicture1(){
+
+            myVar1.src = "images/anisul1.jpg";
+
+        }
+
+        function myPicture2(){
+
+            myVar1.src = "images/anisul2.jpg";
+
+        }
+
+
+    </script>
+</body>
+</html>
