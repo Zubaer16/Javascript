@@ -45,15 +45,25 @@ const taskFive = () => {
     console.log("task five");
 }
 
-taskOne(function f1(){
-    taskTwo(function f2(){
-        taskThree(function f3(){
-            taskFour(function f4(){
-                taskFive();
-            });
-        });
-    });
-});
+// taskOne(function f1(){
+//     taskTwo(function f2(){
+//         taskThree(function f3(){
+//             taskFour(function f4(){
+//                 taskFive();
+//             });
+//         });
+//     });
+// });
+
+taskOne(() => {
+    taskTwo(() => {
+        taskThree(() => {
+            taskFour(() =>{
+                taskFive()
+            })
+        })
+    })
+})
 
 
 
